@@ -71,7 +71,7 @@ while True:   # play again
                 highscore = score
             
             pen.clear()
-            pen.write("Score: {}   Highscore: {}".format(score, highscore), align = "center", font = ("Courier", 24, "normal"))
+            pen.write(f"Score: {score}   Highscore: {highscore}", align = "center", font = ("Courier", 24, "normal"))
         
         al = move_body(head,segments)
         
@@ -97,7 +97,7 @@ while True:   # play again
     score = 0
     
     pen.clear()
-    pen.write("Score: {}   Highscore: {}".format(score, highscore), align = "center", font = ("Courier", 24, "normal"))
+    pen.write(f"Score: {score}   Highscore: {highscore}", align = "center", font = ("Courier", 24, "normal"))
     
     alive = True
 
